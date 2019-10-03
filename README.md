@@ -54,7 +54,7 @@ We provide an R client for the service. Given a `data.table` with GPS informatio
 You can install the package from source
 
 ```bash
-R CMD INSTALL r-client/
+R CMD INSTALL clients/r-client/
 ```
 
 To test it out, spin up a local version of the service, then run this example:
@@ -81,7 +81,7 @@ We provide a Python client for the service. Given a `pandas` `DataFrame` with GP
 You can install the package from source
 
 ```bash
-pushd py-client
+pushd clients/py-client
     pip install .
 popd
 ```
